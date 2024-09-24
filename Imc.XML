@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <Button
+        android:id="@+id/button_voltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:padding="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:background="@android:color/transparent"/>
+
+    <EditText
+        android:id="@+id/editText_peso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite seu peso (kg)"
+        android:inputType="numberDecimal"
+        android:layout_below="@id/button_voltar"
+        android:layout_marginTop="32dp"
+        android:padding="12dp"/>
+
+
+    <EditText
+        android:id="@+id/editText_altura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite sua altura (m)"
+        android:inputType="numberDecimal"
+        android:layout_below="@id/editText_peso"
+        android:layout_marginTop="16dp"
+        android:padding="12dp"/>
+
+    <Button
+        android:id="@+id/button_calcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular IMC"
+        android:textSize="18sp"
+        android:layout_below="@id/editText_altura"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#D32F2F"
+        android:textColor="#FFFFFF"
+        android:padding="12dp"/>
+
+    <Button
+        android:id="@+id/button_limpar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Limpar"
+        android:textSize="18sp"
+        android:layout_below="@id/button_calcular"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#6200EE"
+        android:textColor="#FFFFFF"
+        android:padding="12dp"/>
+
+    <TextView
+        android:id="@+id/textView_resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resultado: "
+        android:paddingTop="24dp"
+        android:textSize="20sp"
+        android:layout_below="@id/button_limpar"
+        android:layout_marginTop="24dp"/>
+</RelativeLayout>
