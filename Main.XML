@@ -1,0 +1,61 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Escolha uma Opção"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:layout_marginBottom="32dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/button_imc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular IMC"
+        android:textSize="18sp"
+        android:backgroundTint="#D32F2F"
+        android:textColor="#FFFFFF"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/button_combustivel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Combustível"
+        android:textSize="18sp"
+        android:backgroundTint="#D32F2F"
+        android:textColor="#FFFFFF"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/button_principal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Principal"
+        android:textSize="18sp"
+        android:backgroundTint="#D32F2F"
+        android:textColor="#FFFFFF"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/button_fechaapp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fechar App"
+        android:textSize="18sp"
+        android:backgroundTint="#6200EE"
+        android:textColor="#FFFFFF"
+        android:padding="16dp"/>
+</LinearLayout>
